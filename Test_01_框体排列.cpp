@@ -17,7 +17,7 @@ int main()
 		{
 			break;
 		}
-	};
+	}
 	sort(Numbers.begin(), Numbers.end());//ÅÅĞò
 	int tempValue = Numbers[0];
 	if (Numbers.size() == 0)
