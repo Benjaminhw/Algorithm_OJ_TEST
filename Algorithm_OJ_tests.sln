@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_02_整数排序", "Tes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_03_构造大数组证明选择排序的优劣", "Test_03_构造大数组证明选择排序的优劣\Test_03_构造大数组证明选择排序的优劣.vcxproj", "{EE636788-EFA3-4B58-8302-67020DFB5E32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_04_计算合并果子耗费的体力", "Test_04_计算合并果子耗费的体力\Test_04_计算合并果子耗费的体力.vcxproj", "{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{EE636788-EFA3-4B58-8302-67020DFB5E32}.Release|x64.Build.0 = Release|x64
 		{EE636788-EFA3-4B58-8302-67020DFB5E32}.Release|x86.ActiveCfg = Release|Win32
 		{EE636788-EFA3-4B58-8302-67020DFB5E32}.Release|x86.Build.0 = Release|Win32
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Debug|x64.ActiveCfg = Debug|x64
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Debug|x64.Build.0 = Debug|x64
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Debug|x86.Build.0 = Debug|Win32
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x64.ActiveCfg = Release|x64
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x64.Build.0 = Release|x64
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x86.ActiveCfg = Release|Win32
+		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
