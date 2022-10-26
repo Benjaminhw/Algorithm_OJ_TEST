@@ -1,4 +1,5 @@
 *.user
 *.vs
-.vs\*
-Debug
+.vs/*
+Debug/
+*/Debug
