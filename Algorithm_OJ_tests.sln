@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_03_构造大数组证�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_04_计算合并果子耗费的体力", "Test_04_计算合并果子耗费的体力\Test_04_计算合并果子耗费的体力.vcxproj", "{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_05_差分计数", "Test_05_差分计数\Test_05_差分计数.vcxproj", "{94F82E79-BD4B-4593-8112-DC1506CE0B9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x64.Build.0 = Release|x64
 		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x86.ActiveCfg = Release|Win32
 		{9AD6FB3B-2925-4009-8305-C20DA6DDC7F3}.Release|x86.Build.0 = Release|Win32
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Debug|x64.ActiveCfg = Debug|x64
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Debug|x64.Build.0 = Debug|x64
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Debug|x86.ActiveCfg = Debug|Win32
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Debug|x86.Build.0 = Debug|Win32
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x64.ActiveCfg = Release|x64
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x64.Build.0 = Release|x64
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x86.ActiveCfg = Release|Win32
+		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
