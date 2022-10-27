@@ -28,25 +28,18 @@ void Search(vector<int>Numbers, int low, int high, int target, int& count)
 			}
 			return;
 		}
-		else if (target > Numbers[low] && target < Numbers[mid])
+		else if (target > Numbers[mid])
 		{
-			high = mid;
+			low = mid + 1;
 			Search(Numbers, low, high, target, count);
-		}
-		else if (target > Numbers[mid] && target < Numbers[high])
-		{
-			low = mid;
-			Search(Numbers, low, high, target, count);
-		}
-		else if (target == Numbers[(low + high) / 2] || target == Numbers[low] || target == Numbers[high])
-		{//把low和high维持到上一次搜索的范围内
-			return;
 		}
 		else
-		{//没搜到
-			return;
+		{
+			high = mid - 1;
+			Search(Numbers, low, high, target, count);
 		}
 	}
+	return;
 }
 
 int main()
@@ -88,7 +81,7 @@ int main()
 	{
 		int low = i + 1, high = Numbers.size() - 1;
 		int target = Numbers[i] + width;
-		Search(Numbers, low, high, target, count)
+		Search(Numbers, low, high, target, count);
 	}
 	if (width == 0)//如果宽度是0，那么需要乘2，因为只统计了一半
 	{
