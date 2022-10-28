@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_04_计算合并果子�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_05_差分计数", "Test_05_差分计数\Test_05_差分计数.vcxproj", "{94F82E79-BD4B-4593-8112-DC1506CE0B9B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_06_制作菜肴", "Test_06_制作菜肴\Test_06_制作菜肴.vcxproj", "{F1B850C0-6E62-4C07-A780-861756B37C83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x64.Build.0 = Release|x64
 		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x86.ActiveCfg = Release|Win32
 		{94F82E79-BD4B-4593-8112-DC1506CE0B9B}.Release|x86.Build.0 = Release|Win32
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Debug|x64.ActiveCfg = Debug|x64
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Debug|x64.Build.0 = Debug|x64
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Debug|x86.Build.0 = Debug|Win32
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Release|x64.ActiveCfg = Release|x64
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Release|x64.Build.0 = Release|x64
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Release|x86.ActiveCfg = Release|Win32
+		{F1B850C0-6E62-4C07-A780-861756B37C83}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
