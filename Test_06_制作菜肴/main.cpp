@@ -45,11 +45,10 @@ int main()
 	sort(GardenSortQueue.begin(), GardenSortQueue.end(), compare);
 
 	//接下来要做的就是按照队列顺序，挑出四个象限内的元素
-	int a = 0, b = 0, c = 0, d = 0;//左上 右上 左下 右下
-	bool a1 = true, b1 = true, c1 = true, d1 = true;
-	for (int j = 0; j < width; ++j)
+
+	for (int i = 1; i <= height; ++i)
 	{
-		for (int i = 1; i <= height; ++i)
+		for (int j = 1; j <= width; ++j)
 		{//现在是要挑选小明的站位
 			if (i == 1 || j == 1 || i == height || j == width)
 			{
@@ -57,6 +56,8 @@ int main()
 			}
 			else
 			{
+				int a = 0, b = 0, c = 0, d = 0;//左上 右上 左下 右下
+				bool a1 = true, b1 = true, c1 = true, d1 = true;
 				for (vector<pair<pMyset, int>>::iterator it = GardenSortQueue.begin(); (a1 || b1 || c1 || d1 ) & it != GardenSortQueue.end(); ++it)
 				{
 					if (it->first->i < i)
