@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_06_制作菜肴", "Tes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_07_打包箱子", "Test_07_打包箱子\Test_07_打包箱子.vcxproj", "{88DB2F89-FF46-455C-9E37-E079D508779D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_05_差分计数新思路", "Test_05_差分计数新思路\Test_05_差分计数新思路.vcxproj", "{5CADD03B-2569-4A19-ACE3-9483FECBD474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{88DB2F89-FF46-455C-9E37-E079D508779D}.Release|x64.Build.0 = Release|x64
 		{88DB2F89-FF46-455C-9E37-E079D508779D}.Release|x86.ActiveCfg = Release|Win32
 		{88DB2F89-FF46-455C-9E37-E079D508779D}.Release|x86.Build.0 = Release|Win32
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Debug|x64.ActiveCfg = Debug|x64
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Debug|x64.Build.0 = Debug|x64
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Debug|x86.Build.0 = Debug|Win32
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Release|x64.ActiveCfg = Release|x64
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Release|x64.Build.0 = Release|x64
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Release|x86.ActiveCfg = Release|Win32
+		{5CADD03B-2569-4A19-ACE3-9483FECBD474}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//AC
+
 //感觉整个思路就错了，写你妈的二分查找- -。
 //谢谢，有被网上的思路误导到！！！这题就是双指针啊，两个迭代器遍历1遍就完事儿！！！！我浪费的时间啊！！！！
 //void Search(vector<int>Numbers, int low, int high, int target, int& count)
@@ -49,15 +51,13 @@ using namespace std;
 //	return;
 //}
 
-long long factorial(int n)
+//坑
+
+bool compare(const int a, const int b)
 {
-	long long result = 1;
-	for (int i = 1; i <= n; ++i)
-	{
-		result *= i;
-	}
-	return result;
+	return a > b;
 }
+
 
 int main()
 {
@@ -100,7 +100,12 @@ int main()
 		return 0;
 	}
 
+	//其实可以不用分直接取绝对值,后面也不用分叉的
+	//TODO 优化
+
+	width = abs(width);
 	sort(Numbers.begin(), Numbers.end());
+
 	//for (int i = 0; i < Numbers.size() - 1; ++i)//最后一个不用找了
 	//{
 	//	int low = i + 1, high = Numbers.size() - 1;
@@ -108,7 +113,7 @@ int main()
 	//	Search(Numbers, low, high, target, count);
 	//}
 
-	int count = 0;
+	long long count = 0;
 	int x = 0, y = 1;
 	int size = Numbers.size();
 
@@ -157,7 +162,7 @@ int main()
 			}
 			else
 			{//不同，或是到达了数组的末端
-				count += N*(N+1);//计数加上这一堆数的阶乘
+				count += ((long long)N+1)*((long long)N+1);//计数加上这一堆数的阶乘
 				N = 0;
 				++x;
 				if (x < size)
