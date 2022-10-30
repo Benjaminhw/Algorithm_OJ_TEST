@@ -13,7 +13,7 @@ int main()
 	int Nouse = 0, width = 0;
 	cin >> Nouse >> width;
 	vector<int> Numbers;
-	int count = 0;
+	long int count = 0;
 	Numbers.resize(Nouse);
 	//读到回车再进入下一行
 	while (getchar() != '\n') {}
@@ -57,14 +57,16 @@ int main()
 	int sizeC = CountArray.size();
 	fill(CountArray.begin(), CountArray.end(), 0);//置0
 
+	width = abs(width);
+
 	for (int z = 0; z < size; ++z)
 	{
 		++CountArray[Numbers[z]+2000000];
 	}
 
-	for (int z = 0; z < sizeC&&z+width>=0&&z+width<sizeC; ++z)
+	for (int z = 0; z < sizeC&&z+width<sizeC; ++z)
 	{
-		count += CountArray[z] * CountArray[z+width];
+		count += (long int)CountArray[z] * (long int)CountArray[z+width];
 	}
 
 	cout << count;
