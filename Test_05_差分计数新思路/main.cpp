@@ -6,7 +6,7 @@
 
 using namespace std;
 
-//WA 40
+//AC 100
 
 int main()
 {
