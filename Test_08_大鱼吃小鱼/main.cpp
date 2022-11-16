@@ -12,7 +12,7 @@ typedef struct FishProperties
 	long long FishSize;
 	long long FishValue;
 }FishProperties, * pFishProperties;
-
+a
 bool MyCompare(const FishProperties a, const FishProperties b)
 {
 	if (a.FishValue >= 0)
